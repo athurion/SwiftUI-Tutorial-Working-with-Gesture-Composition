@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         
-        Image("carl-heyerdahl")
+        Image("carl-heyerdahl") // Modify this with the image file name
             .resizable()
             .frame(width: 200, height: 100)
             .opacity(isLongPressed ? 0.5 : 1.0)
